@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>COMPASS</title>
+  <link rel="stylesheet" type="text/css" href="aboutusCSS.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <div id="heading">
+  <div class="move">
+  <a id="compass" href= "test.html"> <img src="sane.png" height="75" width="300" onclick= ""> </a></div>
+
+
+  <!--  ############ REPLACE NAVBAR ############ -->
+  <div class="navbar">
+    <a href="test.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">College
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="college.html#College">Why College</a>
+        <a href="college.html#collegeresearch">College Research</a>
+        <a href="college.html#finance">Financial Aid</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Testing
+      	<i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="testing.html#sat">SAT vs. ACT</a>
+        <a href="testing.html#subject">Subject Tests</a>
+        <a href="testing.html#ap">AP Exams</a>
+      </div>
+    </div>
+    <a href="summerbreak.html">Summer Break</a>
+    <a href="supportsystem.html">Support System</a>
+    <a href="resumebuilding.html">Resume Building</a>
+    <div class="dropdown">
+      <button class="dropbtn">Classes
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="classes.html#classes">Recommended Classes</a>
+        <a href="classes.html#study">Study Skills</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">About Us
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="aboutus1.html#a">Akhila Gundavelli</a>
+        <a href="aboutus1.html#e">Erika Espinoza</a>
+        <a href="aboutus1.html#n">Nishka Chotai</a>
+        <a href="aboutus1.html#s">Salma El Difrawy</a>
+
+    </div>
+  </div>
+  </div>
+
+      <!--  ############ REPLACE NAVBAR ############ -->
+<br>
+<br>
+<br>
+<br>
+      <script>
+
+          var i = 0;
+          var images = [];
+          var time = 3000;
+
+          images[0] ='us.jpg';
+
+          function changeImg(){
+            document.slide.src = images[i];
+
+            if (i < images.length -1 ){
+              i++;
+            } else{
+              i = 0;
+            }
+            setTimeout("changeImg()", time);
+          }
+
+          window.onload = changeImg;
+
+      </script>
+        <center><img name ="slide" width="1050" height="600"></center>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <!-- <h2></h2> -->
+      <h2>Akhila Gundavelli</h2>
+      <div class="fakeimg" style="height:255px;">
+        Hello! My name is Akhila and I am a senior at Evergreen Valley High School. In my freetime, I enjoy doing Tae Kwon Do and volunteering at the Boys and Girls Club. At my school, I am the treasurer of Science National Honor Society and the president of the Chem & Bio Club.  One of my passions includes advocating for the protection of the environment. I hope to contribute to the cause of limiting the use of single-use plastics in the future. This summer, I was a part of the Girls Who Code Summer Immersion Program and it was an experience that I will never forget. Learning to different languages such as Python, HTML, and JavaScript has convinced me to pursue a career in the biotechnology field.
+      </div>
+      <p></p>
+    </div>
+    <div class="card">
+      <!-- <h2></h2> -->
+      <span id="e">
+      <h2>Erika Espinoza </h2>
+      <div class="fakeimg" style="height:255px;">
+      Hello, and welcome to Compass. I am currently a rising senior class of 2019. Somethings you should know about me is that I'm a first generation college student, coming from an immigrant family. Although my siblings and I were born here, my mother wasn't, and I personally know how difficult it is to know all you need to for college bound mindset. Being apart of Girls Who Code summer immersion program at Amazon has made me consider going into Computer science, as well as taught me new and amazing skills. I'm the type of person who loves challenges and to learn new things. One of my passions is to be a local activist, and stand up for rights in my community, if it's going to Women Marches, or Union Protest, I love it all.
+      </div>
+      <p> </p>
+      <p></p>
+    </div>
+    <div class="card">
+      <span id="n">
+      <h2>Nishka Chotai</h2>
+      <div class="fakeimg" style="height:250px;">
+      My name is Nishka and I am a high school senior. I am an aspiring software engineer and I'm passionate about women's rights. During my high school career, I was an involved member and leader of my school's Speech and Debate team and President of the Women's Empowerment Association.  Some of my hobbies include singing, programming, and hanging out with my little brother. My favorite part of my summer at Girls Who Code Amazon this summer was learning how to use HTML and CSS to make my own website. I am passionate about sharing my knowledge to educate others.
+      </div>
+      <p> </p>
+      <p></p>
+    </div>
+    <div class="card">
+      <!-- <h1></h1> -->
+      <span id="s">
+      <h2>Salma El Difrawy</h2>
+      <div class="fakeimg" style="height:248px;">
+      Hi! My name is Salma El Difrawy and I'm a rising junior at Accel Middle College. This summer I am attending the Girls Who Code Summer Immersion Program at Amazon, and creating this website was my final project. I am the president of the Model United Nations delegation at my school, and served as student body president during my sophomore year in high school. I am very passionate about feminist causes and equal opportunities for all. In my free time you'll find me playing with my cat, reading the news, or decorating various things.
+      </div>
+      <p> </p>
+      <p></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card2" style="height:320px">
+      <!-- <div class="fakeimg" style="height:250px;"> -->
+        <img src="akhila.jpg" style="height:180px" id="akhila">
+        <center>
+        <div class="sad">
+          <a href= "https://www.instagram.com/akhilaaa.a/"><img src="insta.jpg" height= "30" width = "30"></a>
+          <a href= "https://www.linkedin.com/feed/"><img src="link.jpg" height= "30" width = "30" ></a>
+          <a href = "mailto:akhila.gundavelli@gmail.com"><img src="gmail.jpg" height="30" width= "30"></a>
+        </div>
+      </center>
+      <!-- </div> -->
+      <p></p>
+    </div>
+    <br>
+    <br>
+    <div class="card2" style="height:319px">
+      <!-- <h2></h2> -->
+      <!-- <div class="fakeimg" style="height:250px;"> -->
+      <img src="erika.jpg" style="height:180px" id="erika">
+      <center>
+      <div class="sad">
+       <a href= "https://www.instagram.com/erikaxespinoza/"><img src="insta.jpg" height= "30" width = "30"></a>
+       <a href= "https://www.linkedin.com/in/erika-espinoza-02409b167/"><img src="link.jpg" height= "30" width = "30" ></a>
+       <a href = "mailto:eespinoza2019@sjlvla.org"><img src="gmail.jpg" height="30" width= "30"></a>
+      </div>
+    </center>
+      <!-- </div> -->
+      <p></p>
+    </div>
+    <br>
+    <br>
+    <div class="card2" style="height:319px">
+      <!-- <h2></h2> -->
+      <!-- <div class="fakeimg" style="height:250px;"> -->
+      <img src="nishka.jpg" style="height:180px" id="nishka">
+      <center>
+      <div class="sad">
+       <a href= "https://www.instagram.com/nishka.chotai/"><img src="insta.jpg" height= "30" width = "30"></a>
+       <a href= "https://www.linkedin.com/in/nishkachotai/"><img src="link.jpg" height= "30" width = "30" ></a>
+       <a href = "mailto:nishka9chotai@gmail.com "><img src="gmail.jpg" height="30" width= "30"></a>
+      </div>
+    </center>
+      </div>
+      <p></p>
+
+    <br>
+    <br>
+  <div class="card2" style="height:319px">
+      <!-- <h2></h2> -->
+      <!-- <div class="fakeimg" style="height:250px;"> -->
+      <img src="salma.jpg" style="height:180px" id="salma">
+      <center>
+      <div class="sad">
+       <a href= "https://www.instagram.com/salmaeldifrawy/"><img src="insta.jpg" height= "30" width = "30"></a>
+       <a href= "https://www.linkedin.com/in/salma-el-difrawy-08b75261/"><img src="link.jpg" height= "30" width = "30" ></a>
+       <a href = "mailto:salmaeldifrawy2012@gmail.com"><img src="gmail.jpg" height="30" width= "30"></a>
+      </div>
+    </center>
+      </div>
+      <p></p>
+      <br>
+      <br>
+    </div>
+    <!-- </div> -->
+
+
+
+
+  </div>
+</div>
+
+</h4>
+
+
+</body>
+</html>
